@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.6" class="java.beans.XMLDecoder">
+ <object class="serializacion.SistemaDTO" id="SistemaDTO0">
+  <void property="choferes">
+   <void method="add">
+    <object class="modelo.ChoferContratado">
+     <void property="dni">
+      <string>123456</string>
+     </void>
+     <void property="ganancia_viaje">
+      <double>40.0</double>
+     </void>
+     <void property="nombre">
+      <string>juan</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="modelo.ChoferContratado">
+     <void property="dni">
+      <string>333333</string>
+     </void>
+     <void property="ganancia_viaje">
+      <double>40.0</double>
+     </void>
+     <void property="nombre">
+      <string>pablo</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="modelo.ChoferContratado">
+     <void property="dni">
+      <string>111111</string>
+     </void>
+     <void property="ganancia_viaje">
+      <double>40.0</double>
+     </void>
+     <void property="nombre">
+      <string>pedro</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="modelo.ChoferContratado">
+     <void property="dni">
+      <string>999999</string>
+     </void>
+     <void property="ganancia_viaje">
+      <double>40.0</double>
+     </void>
+     <void property="nombre">
+      <string>solari</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="modelo.ChoferTemporario">
+     <void property="dni">
+      <string>666666</string>
+     </void>
+     <void property="nombre">
+      <string>yo</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
